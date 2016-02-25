@@ -106,3 +106,42 @@ boolean equality(quadruple comparison) {
 ```
 
 ---
+
+## Question 4
+
+* a) i) `x == 15`
+* a) ii) `x == 7 || x == 91`
+* a) iii) `x == 1 && y == 2 && z % 2 == 0`
+* a) iv) `!(x == y || x == z || y == z)`
+
+---
+
+* b) i) `int`
+* b) ii) `String`
+* b) iii) `void` / no return
+* b) iv) `char`
+
+---
+
+* c)
+```java
+static void copy(String g1, String g2) throws Exception {
+    try {
+        BufferedReader r = new BufferedReader(new FileReader(g2));
+        BufferedWriter w = new BufferedWriter(new FileWriter(g1));
+
+        int t = r.read();
+        StringBuilder tmp = new StringBuilder();
+
+        while(t != -1) {
+            //tmp.append((char)t);
+            w.append((char)t);
+            t = r.read();
+        }
+        w.close();
+        r.close();
+    } catch(Exception e) {
+        System.out.println("Error - The file " + g2 + " does not exist!");
+    }
+}
+```
