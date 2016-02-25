@@ -7,7 +7,7 @@
 
 * c) When the `BufferedReader` file pointer reaches the end of the file.
 
-* d) Nothing would appear on the output. This is because the program will immediately reach the end of the file upon reading it as it is empty, hence, the while() loop will not run.
+* d) Nothing would appear on the output. This is because the program will immediately reach the end of the file upon reading it as it is empty, hence, the `while()` loop will not run.
 
 * e) g
 
