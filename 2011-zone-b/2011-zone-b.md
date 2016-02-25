@@ -15,7 +15,7 @@
   4. The method will always `return false`
 3. **Q1 Part C**
   1. Arrays are ﬁxed in length indexed using square brackets while vectors are dynamic, where elements can be added at the end or removed from the middle. Elements of vector are of type Object. (Based on Examiner’s Report 2014 zone B)
-  2.
+  2. 
 ```java
 public static String longestString(Vector<String> v) {
 	int longestIndex = 0;
