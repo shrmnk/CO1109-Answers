@@ -35,6 +35,7 @@ public static String longestString(Vector<String> v) {
 ---
 
 ## Question 2
+
 * a) i) 1
 * a) ii) 1.5
 * a) iii) 6
@@ -52,3 +53,56 @@ public static String longestString(Vector<String> v) {
 * c) ii) 5
 * c) iii) hello
 * c) iv) 5
+
+---
+
+## Question 3
+> Answers in this section assume that `public static void main(int [] args)` is meant to be written as the Java main method, `public static void main(String[] args)`. Otherwise, the program will not run at all as a main method does not exist.
+
+* a) i) \[1,2\]
+* a) ii) \[3\]\[1,2\]
+
+* b)
+```java
+class quadruple {
+    pair firstPair, secondPair;
+    public quadruple(int x1, int y1, int x2, int y2) {
+        firstPair = new pair(x1, y1);
+        secondPair = new pair(x2, y2);
+    }
+    public String toString() {
+        return firstPair.toString() + "," + secondPair.toString();
+    }
+    public static void main(String [] args) {
+        System.out.println(new quadruple(1, 2, 3, 4));
+    }
+}
+```
+
+* c)
+```java
+// class pair
+boolean equality(pair comparison) {
+    return this.first == comparison.first
+        && this.second == comparison.second;
+}
+```
+
+```java
+// class triple
+boolean equality(triple comparison) {
+    return this.first == comparison.first
+        && this.second == comparison.second
+        && this.third == comparison.third;
+}
+```
+
+```java
+// class quadruple
+boolean equality(quadruple comparison) {
+    return this.firstPair.equality(comparison.firstPair)
+        && this.secondPair.equality(comparison.secondPair);
+}
+```
+
+---
