@@ -11,7 +11,7 @@ class vectorsort {
           sorted = false;
           String tmp = v.elementAt(i);
           v.removeElementAt(i);
-          v.insertElementAt(tmp, i-2);
+          v.insertElementAt(tmp, i-1);
         }
       }
     }

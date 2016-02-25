@@ -76,18 +76,34 @@ static int product(Vector v) {
 
 * c) i)
 ```java
-abstract class Shorter implements ordering {
-  static boolean compare(String s, String t) {
-    return s.length() < t.length();
-  }
+public class Shorter implements ordering{
+    public boolean compare(Object s, Object t) {
+        String s1 = "";
+        String s2 = "";
+        if(s instanceof String) {
+            s1 = (String) s;
+        }
+        if(t instanceof String) {
+            s2 = (String) t;
+        }
+        return s1.length() < s2.length();
+    }
 }
 ```
 * c) ii)
 ```java
-abstract class alphabetic implements ordering {
-  static boolean compare(String s, String t) {
-    return s.compareTo(t) < 0;
-  }
+public class alphabetic implements ordering {
+    public boolean compare(Object s, Object t) {
+        String s1 = "";
+        String s2 = "";
+        if(s instanceof String) {
+            s1 = (String) s;
+        }
+        if(t instanceof String) {
+            s2 = (String) t;
+        }
+        return s1.compareTo(s2) < 0;
+    }
 }
 ```
 * d)
@@ -198,7 +214,7 @@ public static double averageOfArray(int[][] arr) {
   `double` / `float`
 
   `boolean`
-  
+
 
 * a) ii)
 ```java
@@ -235,3 +251,8 @@ public static String reverse(String original) {
   return tmp;
 }
 ```
+
+---
+
+###### Contributors
+> These people helped to make the above answers: [@shrmnk](https://github.com/shrmnk) [@vctortangggg](https://github.com/vctortangggg)
