@@ -9,6 +9,8 @@
 * a) iv) 37
 * a) v) 3
 
+---
+
 * b) i) No
 * b) ii) Yes
 * b) iii) Yes
@@ -20,12 +22,11 @@
 * b) ix) Yes
 * b) x) Yes
 
+---
+
 * c) i) Method Overloading
-
 * c) ii) `parseInt(String)` and `parseInt(String, int)`
-
 * c) iii)
-
 ```java
 public class descending {
   public static void main(String[] args) {
@@ -118,7 +119,7 @@ class F {
 ```
 
 
-3 c)
+* c)
 ```java
   public void rightTriangle(int n) {
     for(int i =0; i < n; i++) {
