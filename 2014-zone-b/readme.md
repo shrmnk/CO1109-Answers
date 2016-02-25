@@ -192,9 +192,13 @@ public static double averageOfArray(int[][] arr) {
 
 * a) i)
   `int`
+
   `int` / `long`
+
   `double` / `float`
+
   `boolean`
+  
 
 * a) ii)
 ```java
