@@ -129,12 +129,8 @@ static void copy(String g1, String g2) throws Exception {
     try {
         BufferedReader r = new BufferedReader(new FileReader(g2));
         BufferedWriter w = new BufferedWriter(new FileWriter(g1));
-
         int t = r.read();
-        StringBuilder tmp = new StringBuilder();
-
         while(t != -1) {
-            //tmp.append((char)t);
             w.append((char)t);
             t = r.read();
         }

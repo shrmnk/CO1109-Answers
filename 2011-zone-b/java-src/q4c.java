@@ -13,12 +13,8 @@ class q4c {
         try {
             BufferedReader r = new BufferedReader(new FileReader(g2));
             BufferedWriter w = new BufferedWriter(new FileWriter(g1));
-
             int t = r.read();
-            StringBuilder tmp = new StringBuilder();
-
             while(t != -1) {
-                //tmp.append((char)t);
                 w.append((char)t);
                 t = r.read();
             }
