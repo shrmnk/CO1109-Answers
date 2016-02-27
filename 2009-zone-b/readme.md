@@ -84,9 +84,9 @@ public static boolean checkInt(String a) {
 ---
 
 * b) i) D
-* b) ii) 25. -2147483648
-* b) iii) 26. Run out of memory
-* b) iv) 27. 65535
+* b) ii) -2147483648
+* b) iii) Run out of memory
+* b) iv) 65535
 
 ---
 
