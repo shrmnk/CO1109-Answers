@@ -16,8 +16,10 @@
 
 ---
 
-* b) i) 128ms (bigO is n)
-* b) ii) 7ms (bigO is log(n))
+* b) i) 64ms
+  (This linear function is of order `O(n)`. However, since every result has an equal probability of happening, the average search time would be `n/2`. The worst-case time complexity, however, is `n`. )
+* b) ii) 7ms
+  (This function is of order `O(log(n))`, but the worst-case time complexity is calculated by `log(n) + 1`)
 * b) iii) Makes `t` and `temp` have the same value, with its memory address referred to by `a[x]` and `a[y]`
 * b) iv) Checks if the integer value `thing` is found within the given array `a[]`
 
