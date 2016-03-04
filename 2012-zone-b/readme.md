@@ -1,5 +1,10 @@
 # 2012 Zone B Exam Paper
 
+| **DISCLAIMER**  |
+| :---: |
+| This repository of documents and source codes were created with the intention of helping fellow students. No infringement of copyrights or legal rights intended. |
+| Please only take these answers as a *reference* for your research purposes. |
+
 ---
 
 ## Question 01
@@ -82,7 +87,7 @@ static int minOf3(int a, int b, int c) {
 //c(i)
 static int count(char a, String s) {
    int count = 0;
-   for (int i = 0; i < s.length() - 1; i++) { 
+   for (int i = 0; i < s.length() - 1; i++) {
         if (s.charAt(i) == a) {
             count++;
         }
@@ -111,7 +116,7 @@ static boolean reverse(String s, String t) {
 * a(ii) Argument mismatch. String cannot be converted into integer.
 
 ```
-//a(iii) 
+//a(iii)
 hello
 be
 a
@@ -126,7 +131,7 @@ a
 public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
         boolean carryOn = true;
-        System.out.println("Enter Number>"); 
+        System.out.println("Enter Number>");
         while (carryOn) {
             String s = in.nextLine();
             try  {
@@ -189,13 +194,13 @@ public class Student {
     String name;
     boolean gender;
     Date date;
-    
+
     public Student(String n, boolean g, Date d) {
         name = n;
         gender = g;
         date = d;
     }
-    
+
   public boolean equals(Student s) {
         return s.name.equals(name) && s.gender == gender && date.equals(s.date);
     }
@@ -205,5 +210,7 @@ public class Student {
 #### Part C
 
 
+---
 
-
+###### Contributors
+> These people helped to make the above answers: [@hong-yi](https://github.com/hong-yi)
