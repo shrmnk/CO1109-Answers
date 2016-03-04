@@ -209,12 +209,13 @@ public static double averageOfArray(int[][] arr) {
 *Answers in this section have been validated against the provided Marker's Report.*
 
 * a) i) (`unsigned` optional)
+
   `int`
 
   `int` / `long`
 
   `double` / `float`
-
+  
   `boolean`
 
 
