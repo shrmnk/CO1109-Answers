@@ -38,7 +38,9 @@ public class q1g {
 ---
 
 ## Question 2
+
 *Answers in this section have been validated against the provided Marker's Report.*
+
 * a) Arrays: fixed in length upon initialisation; Element referenced using index in square brackets
      Vectors: variable in length - Elements can be added or removed dynamically; Elements of vector are of type `Object`, referenced by `.elementAt()` method.
 
@@ -204,9 +206,9 @@ public static double averageOfArray(int[][] arr) {
 
 ## Question 6
 
-*Answers are from examiner’s report.*
+*Answers in this section have been validated against the provided Marker's Report.*
 
-* a) i)
+* a) i) (`unsigned` optional)
   `int`
 
   `int` / `long`
@@ -218,11 +220,12 @@ public static double averageOfArray(int[][] arr) {
 
 * a) ii)
 ```java
-public class A {
+public class q6aii {
   public static void main(String[] args) {
-    int total=0;
-    for (int i=0;i<args.length;i++) total += Integer.parseInt(args[i]);
-    System.out.println(total);
+    int sum = 0;
+    for (int i = 0; i < args.length; i++)
+      sum += Integer.parseInt(args[i]);
+    System.out.println(sum);
   }
 }
 ```
