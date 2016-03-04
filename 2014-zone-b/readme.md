@@ -42,7 +42,8 @@ public class q1g {
 *Answers in this section have been validated against the provided Marker's Report.*
 
 * a) Arrays: fixed in length upon initialisation; Element referenced using index in square brackets
-     Vectors: variable in length - Elements can be added or removed dynamically; Elements of vector are of type `Object`, referenced by `.elementAt()` method.
+
+  Vectors: variable in length - Elements can be added or removed dynamically; Elements of vector are of type `Object`, referenced by `.elementAt()` method.
 
 * b) Objects cannot be directly multiplied
 
@@ -215,7 +216,7 @@ public static double averageOfArray(int[][] arr) {
   `int` / `long`
 
   `double` / `float`
-  
+
   `boolean`
 
 
