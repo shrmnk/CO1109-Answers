@@ -1,4 +1,5 @@
 # CO1109-Answers
+
 Welcome to the CO1109 Answers page
 
 ## :warning: DISCLAIMER
@@ -7,6 +8,8 @@ This repository of documents and source codes were created with the intention of
 
 ***
 
+## What does this repository contain?
+
 Currently, we are working on writing answers (with supported Java source code) for all the past year exam questions.
 
 We plan to add all exercises' answers in the future. (Pull Requests with such contributions welcome)
@@ -14,6 +17,7 @@ We plan to add all exercises' answers in the future. (Pull Requests with such co
 We have verified source code available for all Java coding-related questions available in the relevant directory's page in the `java-src` directory.
 
 ## Viewing Answers
+
 Browse the repository on GitHub and navigate to the appropriate directory.
 
 All answers are written in Markdown format.
@@ -35,6 +39,7 @@ javac q3biii
 > Ensure you have included the JDK directory in your `PATH`!
 
 ## Contributing
+
 Do you have answers to contribute? Verified java source files? Please start a new issue describing your contribution and then submit your referenced Pull Request!
 
 We currently only accept verified answers with accompanied java source files.
