@@ -38,29 +38,29 @@ public class q1g {
 ---
 
 ## Question 2
+*Answers in this section have been validated against the provided Marker's Report.*
+* a) Arrays: fixed in length upon initialisation; Element referenced using index in square brackets
+     Vectors: variable in length - Elements can be added or removed dynamically; Elements of vector are of type `Object`, referenced by `.elementAt()` method.
 
-*These answers are provided in the Marker’s Report, with code corrected and formatted.*
-* a) Arrays fixed in length indexed using square brackets vectors are dynamic elements can be added  at the end or removed from the middle. Elements of vector are of type Object.
+* b) Objects cannot be directly multiplied
 
-* b) Can’t multiply objects
+* c) Primitive/basic variables must be made into Objects before being placed as `Object`s in Vectors.
 
-* c) In order handle the basic types as objects 1 is equivalent to `new Integer(1)`.
-
-* d) `v.elementAt(0)` is of type `Object` so we must cast it to `Integer` before we can apply `intValue()` which returns its value as an int. similarly for `v.elementAt(3)` We can then add together these two `int` values using `+`. Before we add the result to the vector we must convert it back to `Integer` using `new Integer(...)`
+* d) Retrieving an element of a `Vector` using `.elementAt()` will return an `Object`, where we must cast to an `Integer` before we can apply `intValue()` which returns its value as an `int`. This goes the same for the third element. The two `int` values can then be added using the `+` operator. The result is then made into a `new Integer()` before adding into the `Vector`.
 ```java
 v.addElement(new Integer(
-  ( (Integer)v.elementAt(0) ).intValue() +
-  ( (Integer)v.elementAt(3) ).intValue()
-);
+  ( (Integer)v.elementAt(0) ).intValue()
+  + ( (Integer)v.elementAt(3) ).intValue()
+) );
 ```
 
 * e)
 ```java
 static int product(Vector v) {
-  int tot = 1;
-  for(i = 0; i < v.size(); i++)
-    tot = tot * ((Integer)v.elementAt(i)).intValue();
-  return (tot);
+  int productSum = 1;
+  for(int i = 0; i < v.size(); i++)
+    productSum *= ( (Integer)v.elementAt(i) ).intValue();
+  return (productSum);
 }
 ```
 
