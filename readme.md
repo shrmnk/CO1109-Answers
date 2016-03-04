@@ -1,13 +1,17 @@
 # CO1109-Answers
 Welcome to the CO1109 Answers page
 
+## DISCLAIMER
+
+This repository of documents and source codes were created with the intention of helping fellow students. No infringement of copyrights or legal rights intended. Please only take these answers as a *reference* for your research purposes.
+
 ***
 
-Currently, we are working on generating answers for all the past year exam questions.
+Currently, we are working on writing answers (with supported Java source code) for all the past year exam questions.
 
-In the future, all exercises' answers will be available here as well.
+We plan to add all exercises' answers in the future. (Pull Requests with such contributions welcome)
 
-We have verified source code available for all Java coding-related questions available in the relevant directory's page.
+We have verified source code available for all Java coding-related questions available in the relevant directory's page in the `java-src` directory.
 
 ## Viewing Answers
 Browse the repository on GitHub and navigate to the appropriate directory.
@@ -16,7 +20,8 @@ All answers are written in Markdown format.
 
 ## Running Java Files
 
-All files are not packaged so you can run them directly on the command-line
+Unless placed in a sub-directory, these source files have not been `package`d, and can be executed directly after compiling by running `java <filename-without-extension>` on the command line.
+
 For example, to run Question 3b part III, just execute:
 ```
 java q3biii
@@ -32,4 +37,4 @@ javac q3biii
 ## Contributing
 Do you have answers to contribute? Verified java source files? Please start a new issue describing your contribution and then submit your referenced Pull Request!
 
-We currently only accept verified answers with accompanied java source files
+We currently only accept verified answers with accompanied java source files.
