@@ -23,7 +23,7 @@ class Roman {
 
                 // Validate roman numeral input
                 for(int i = 0; i < input.length(); i++)
-                    if(!getValue(input.charAt(i))) {
+                    if(getValue(input.charAt(i)) == 0) {
                         input = "";
                         System.out.println("Please enter a valid roman numeral!");
                     }
