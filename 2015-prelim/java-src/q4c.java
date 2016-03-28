@@ -1,4 +1,4 @@
-public class q4biii {
+public class q4bc {
     public static void main(String[] args) {
         System.out.println("124: has " + count7(124) + " 'n's");
         System.out.println("717: has " + count7(717) + " 'n's");
