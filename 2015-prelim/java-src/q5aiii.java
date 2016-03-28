@@ -16,7 +16,6 @@ public class q5aiii {
         int result;
         result = 0;
         for(int i = 0; i <wordArray.length; i++) {
-            if(wordArray[i] == word) {
             // Below is the correct version of String objects
             //if(wordArray[i].equals(word) ) {
                 result = result + 1;
