@@ -340,3 +340,4 @@ public class Rectangle extends Shape {
 ---
 
 ###### Contributors
+> These people helped to make the above answers: @shrmnk @hong-yi
