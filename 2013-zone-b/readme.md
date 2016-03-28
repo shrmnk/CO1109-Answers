@@ -21,6 +21,7 @@
 * (ix) 0
 
 #### Part B
+
 ```java
 int smallest = array[0];
 for (int i = 0; i < array.length; i++) {
@@ -31,6 +32,7 @@ for (int i = 0; i < array.length; i++) {
 ```
 
 ### Part C
+
 ```java
 public static void main(String[] args){
     Vector<String> v = new Vector<>();
@@ -39,14 +41,14 @@ public static void main(String[] args){
     v.add("two");
     v.add("e");
     v.add("f");
-    
+
     int shortest = v.get(0).length();
     for (int i = 0; i < v.size(); i++) {
         if (shortest > v.get(i).length()) {
             shortest = v.get(i).length();
         }
     }
-    
+
     for ( int i = 0; i < v.size(); i++) {
         if (v.get(i).length() == shortest) {
             System.out.println(v.get(i));
@@ -54,6 +56,8 @@ public static void main(String[] args){
     }        
 }
 ```
+
+---
 
 ## Question 02
 
@@ -63,6 +67,7 @@ public static void main(String[] args){
 * (iii) variable `t` is declared twice with different values.
 
 #### Part B
+
 ```java
 double lightSpeedPerHour = 299792458 / 100 / 60;
 double starDistance = lightSpeedPerHour * 24 * 365 * 4.2;
@@ -70,8 +75,8 @@ System.out.println((starDistance / 0.57) * 2);
 ```
 
 #### Part C
-```java
 
+```java
 static int roll() {
     java.util.Random r = new java.util.Random();
     return r.nextInt(6) + 1;
@@ -110,7 +115,8 @@ public static void main(String[] args) {
 * (ii) `12`
 
 #### Part C
-```
+
+```java
 public boolean checkAnagram(String str1, String str2) {
 
     if (str1.length() != str2.length())
@@ -125,23 +131,28 @@ public boolean checkAnagram(String str1, String str2) {
     return Arrays.equals(a, b);
 }
 ```
+
+---
+
 ## Question 04
 
-#### Part A 
+#### Part A
 
 * (i) `-4`
 * (ii) `-2`
 * (iii) `-1`
 
 #### Part B
+
 * (i) This is an example of method overloading
+
 ```java
 class D extends C {
     String h() {
         //this is method overriding
         return "h"
     }
-    
+
     int h() {
         //this is method overloading
         return 0;
@@ -150,13 +161,14 @@ class D extends C {
 ```
 
 #### Part C
+
 ```java
-class Arr() {
+class Arr {
     Object[] array;
     public Arr(Object[] array) {
         this.array = array;
     }
-    
+
     public String toString() {
         String result;
         for (int i = 0; i < array.length; i++) {
@@ -164,4 +176,10 @@ class Arr() {
         }
         return result;
     }
+}
 ```
+
+---
+
+###### Contributors
+> These people helped to make the above answers: @hong-yi
