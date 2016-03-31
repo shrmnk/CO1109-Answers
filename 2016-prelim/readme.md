@@ -152,7 +152,7 @@ void avg2D(int[][] arr) {
 
 ## Question 4
 
-* a) i) It prints out all odd numbers starting from 1 until the given input.
+* a) i) It accepts an int as an input and prints out all odd numbers starting from 1 until the given input.
 
 * a) ii)
 
