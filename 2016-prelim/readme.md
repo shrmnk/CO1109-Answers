@@ -15,15 +15,15 @@ All Java sources are available in the `java-src` directory
 
 ## Question 1
 
-* a) i) 6.0
-* a) ii) 7.0
-* a) iii) 3.0
-* a) iv) 3.3333333
-* a) v) true
-* a) vi) 1.12.2
+* a) i) double: 6.0
+* a) ii) double: 7.0
+* a) iii) float: 3.0
+* a) iv) float: 3.333
+* a) v) boolean: true
+* a) vi) String: 1.12.2
 * a) vii) ILLEGAL
-* a) viii) ILLEGAL (because addition of non-integers)
-* a) ix) 123
+* a) viii) String: 3.21.1a
+* a) ix) int: 123
 
 ---
 
