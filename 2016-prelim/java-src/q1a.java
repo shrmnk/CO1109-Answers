@@ -24,8 +24,7 @@ public class q1a {
         System.out.println("vii) ILLEGAL");
         //System.out.println(( 1 < 2 < 3 ));
 
-        System.out.println("viii) ILLEGAL (because addition of non-integers)");
-        //System.out.println( (1 + 2.2 + "1.1" + "a") );
+        System.out.println("viii) " + (1 + 2.2 + "1.1" + "a") );
 
         System.out.print("ix) ");
         System.out.println(Integer.parseInt("123"));
