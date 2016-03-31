@@ -63,8 +63,9 @@ public class q1d {
 
 ## Question 2
 
-* a)
+* a) Since k is equal to 10, the execution will start from case 10. As there was no `break` statement in `case 10`, therefore the execution will continue until the next `break` in `case 20` after both lines have been printed.
 
+Output:
 ```
 ten
 twenty
