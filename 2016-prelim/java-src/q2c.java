@@ -1,9 +1,10 @@
 public class q2c {
     public static void main(String[] args) {
-        replace("The UK should not be written as uk", "UK", "United Kingdom");
+        System.out.println(replace("The UK should not be written as uk", "UK", "United Kingdom"));
     }
 
-    static void replace(String input, String seed, String replacement) {
+    // String.indexOf Method
+    /*static String replace(String input, String seed, String replacement) {
         boolean done = false;
         while(!done) {
             done = true;
@@ -13,6 +14,15 @@ public class q2c {
                  done = false;
             }
         }
-        System.out.print(input);
+        return input;
+    }*/
+
+    static String replace(String input, String seed, String replacement) {
+        // Check if the string contains the seed
+        if(!input.contains(seed))
+            return input;
+
+        // Get the location of the seed
+        return input.substring(0, input.indexOf(seed)) + replacement + input.substring(input.indexOf(seed) + seed.length());
     }
 }

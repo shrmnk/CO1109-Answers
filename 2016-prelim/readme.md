@@ -80,17 +80,13 @@ twenty
 * c)
 
 ```java
-static void replace(String input, String seed, String replacement) {
-    boolean done = false;
-    while(!done) {
-        done = true;
-        if(input.indexOf(seed) >= 0) {
-            input = input.substring(0, input.indexOf(seed)) + replacement
-             + input.substring(input.indexOf(seed) + seed.length());
-             done = false;
-        }
-    }
-    System.out.print(input);
+static String replace(String input, String seed, String replacement) {
+    // Check if the string contains the seed
+    if(!input.contains(seed))
+        return input;
+
+    // Get the location of the seed
+    return input.substring(0, input.indexOf(seed)) + replacement + input.substring(input.indexOf(seed) + seed.length());
 }
 ```
 
