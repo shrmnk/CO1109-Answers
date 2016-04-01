@@ -27,7 +27,13 @@ All Java sources are available in the `java-src` directory
 
 ---
 
-* b) /TODO
+* b)
+    * Variable vs fixed size
+    * Vectors can hold different types of Objects, arrays cannot
+    * Elements of Vector are only Objects
+        * They cannot hold primitive data types
+    * In Vectors, elements can be added to and removed from any position
+    * Arrays indexed using square brackets
 
 ---
 
