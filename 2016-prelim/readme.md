@@ -36,6 +36,7 @@ All Java sources are available in the `java-src` directory
 ---
 
 * d)
+
 ```java
 import java.util.Vector;
 
@@ -66,6 +67,7 @@ public class q1d {
 * a) Since k is equal to 10, the execution will start from case 10. As there was no `break` statement in `case 10`, therefore the execution will continue until the next `break` in `case 20` after both lines have been printed.
 
 Output:
+
 ```
 ten
 twenty
@@ -73,7 +75,14 @@ twenty
 
 ---
 
-* b) `-2`; There were no "two columns" given in the question
+* b) `-1`
+
+|  x  |  y  |
+|:---:|:---:|
+|  3  |  6  |
+|  6  |  7  |
+|  13 | -1  |
+|  -1 |  0  |
 
 ---
 
