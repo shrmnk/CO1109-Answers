@@ -211,7 +211,7 @@ int count7(int n) {
 
 ---
 
-* b) This code prints out selected contents of the file named _"file1"_
+* b) Opens a file named "file1" and looks for strings starting with the given `String` passed as the first argument to the program and prints them out
     * Parses the file line-by-line
     * Checks if the line starts with a specific string
     * Prints the line out if it does
