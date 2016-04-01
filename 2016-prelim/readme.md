@@ -201,7 +201,7 @@ int count7(int n) {
 
 * a) i) `e`
 * a) ii) `hello`
-* a) iii) The output will be: `Number of occurrences: 0`; This is because the check for whether the strings are equal is using the `==` operator, which would compare the Objects. Instead, to compare the contents of these two String Objects, we should use the `String.equals()` method
+* a) iii) The output will be: `Number of occurrences: 0`; This is because the check for whether the strings are equal is using the `==` operator, which would compare the Objects' memory address instead of the values. Instead, to compare the values of these two String Objects, we should use the `String.equals()` method.
 
 ---
 
