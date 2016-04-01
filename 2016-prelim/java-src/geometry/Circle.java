@@ -29,6 +29,6 @@ public class Circle extends Shape {
     }
 
     public boolean equals(Circle c) {
-        return (c.getColor() == super.getColor()) && (radius == c.getRadius());
+        return (c.getColor().equals(super.getColor())) && (radius == c.getRadius());
     }
 }
