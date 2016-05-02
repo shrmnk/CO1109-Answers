@@ -62,6 +62,7 @@ v.addElement(new Integer(
   + ( (Integer)v.elementAt(3) ).intValue()
 ) );
 ```
+> `.intValue()` is not necessary as Java now does [Autoboxing/Unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html). However, it is included here as this is what was represented in the Marker's Report.
 
 * e)
 ```java
@@ -77,7 +78,7 @@ static int product(Vector v) {
 
 ## Question 3
 
-**Note: Abstract Classes/methods and Interfaces are not tested.**
+**Note: Abstract Classes/methods and Interfaces are not tested and not in the Year 1 syllabus. This question was apparently included by mistake.**
 
 * a) Abstract methods are contained in abstract classes, and are declared without an implementation (NOTE:  https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html).
 
@@ -147,7 +148,7 @@ class vectorsort {
 
 ## Question 4
 
-* a) Object Serialisation
+* a) *TODO: Object Serialisation?*
 
 * b) 2
 
