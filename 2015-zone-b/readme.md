@@ -210,7 +210,16 @@ class q4c {
 
 * b) c
 
-* c) `s.substring(0, s.length() - 1);`
+* c)
+```java
+// Assuming the question asks for the second last character
+// e.g. the "l" in "example", then:
+s.charAt(s.length()-2);
+
+// Assuming the question asks for the String from the start til the second
+// last character, e.g. "exampl" in "example", then:
+s.substring(0, s.length()-1);
+```
 
 * d)
 ```java
