@@ -216,12 +216,12 @@ public class swapcdxy {
 
 ## Question 6
 
-* a) peach
+* a) `peach`
 
 * b)
 ```java
 public class Date {
-  public int d, m, y;
+  private int d, m, y;
   public Date(int d, int m, int y) {
     this.d = d;
     this.m = m;
@@ -232,8 +232,8 @@ public class Date {
 
 ```java
 public class Person {
-  public String firstName, lastName;
-  public Date d;
+  private String firstName, lastName;
+  private Date d;
 
   public Person(String firstName, String lastName, Date d) {
       this.firstName = firstName;
@@ -246,7 +246,7 @@ public class Person {
 * c)
 ```java
 public class PersonOccupation extends Person {
-  public String occupation;
+  private String occupation;
 
   public PersonOccupation(String firstName, String lastName, Date d, String occupation) {
       super(firstName, lastName, d);
@@ -262,7 +262,11 @@ public class q6d {
     java.util.Random r = new java.util.Random();
     return r.nextInt(6) + 1;
   }
-  public static void main(String[] args) {
+
+  // for() loop method
+  // While (no pun intended) this method works, we generally use while() loops
+  // for when we do not know the exact number of times to run the loop for.
+  /*public static void main(String[] args) {
     int consecutive = 0, i = 1;
     for(i = 1; consecutive != 3; i++) {
       if(roll() == 5)
@@ -271,6 +275,20 @@ public class q6d {
         consecutive = 0;
     }
     System.out.println(i);
+}*/
+
+  // while() loop method
+  public static void main(String[] args) {
+      int consecutiveFives = 0, count = 0;
+      while(consecutiveFives < 3) {
+          if(roll() == 5) {
+              consecutiveFives++;
+          } else {
+              consecutiveFives = 0;
+          }
+          count++;
+      }
+      System.out.println(count);
   }
 }
 ```
