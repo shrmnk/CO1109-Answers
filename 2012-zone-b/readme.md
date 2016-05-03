@@ -244,10 +244,11 @@ static boolean after(Date d1, Date d2) {
 
 ```java
 //c(ii)
+// Assuming the above static boolean after method is placed in the Date class
 boolean oldGender(Student[] stds) {
     int oldestIndex = 0;
     for(int i = 1; i < stds.length; i++) {
-        if(this.after(stds[i], stds[oldestIndex])) {
+        if(Date.after(stds[oldestIndex].date, stds[i].date)) {
             oldestIndex = i;
         }
     }
