@@ -131,7 +131,7 @@ a
 
 #### Part B
 
-* b(i) NumberFormatException
+* b(i) A `NumberFormatException` will be thrown
 
 ```java
 //b (ii)
@@ -173,7 +173,6 @@ public static void main(String[] args) {
                 fileFound = false;
             } catch (FileNotFoundException e) {
                 System.out.println("File not found! Please enter another filename.");
-                fileFound = true;
             }
         }
     }
