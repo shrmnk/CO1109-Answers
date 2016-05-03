@@ -185,16 +185,20 @@ public static void main(String[] args) {
 * a(i) `Date date = new Date(2013, 6, 4);`
 
 ```java
-a(ii)
+//a(ii)
 public boolean equals(Date d) {
-        if (day == d.day && month == d.month && year == d.year) return true;
-        else return false;
+    if (day == d.day && month == d.month && year == d.year) {
+        return true;
     }
+
+    return false;
+}
 ```
 
 #### Part B
+
 ```java
-b(i)
+//b(i) and b(ii)
 public class Student {
     String name;
     boolean gender;
@@ -206,7 +210,7 @@ public class Student {
         date = d;
     }
 
-  public boolean equals(Student s) {
+    public boolean equals(Student s) {
         return s.name.equals(name) && s.gender == gender && date.equals(s.date);
     }
 }
@@ -214,8 +218,44 @@ public class Student {
 
 #### Part C
 
+```java
+//c(i)
+static boolean after(Date d1, Date d2) {
+    if(d1.year > d2.year) {
+        return true;
+    } else if(d1.year < d2.year) {
+        return false;
+    }
+    // Means that from here on, their years are the same
+
+    if(d1.month > d2.month) {
+        return true;
+    } else if(d1.month < d2.month) {
+        return false;
+    }
+    // Means that from here on, their months are the same
+
+    if(d1.day > d2.day) {
+        return true;
+    }
+    return false;
+}
+```
+
+```java
+//c(ii)
+boolean oldGender(Student[] stds) {
+    int oldestIndex = 0;
+    for(int i = 1; i < stds.length; i++) {
+        if(this.after(stds[i], stds[oldestIndex])) {
+            oldestIndex = i;
+        }
+    }
+    return stds[oldestIndex].gender;
+}
+```
 
 ---
 
 ###### Contributors
-> These people helped to make the above answers: [@hong-yi](https://github.com/hong-yi)
+> These people helped to make the above answers: [@hong-yi](https://github.com/hong-yi) [@shrmnk](https://github.com/shrmnk)
