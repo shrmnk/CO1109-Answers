@@ -75,7 +75,7 @@ int minOf3(int a, int b, int c) {
 //b(i)
 0
 1
-2
+1
 3
 4
 5
