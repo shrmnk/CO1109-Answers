@@ -113,13 +113,16 @@ static boolean reverse(String s, String t) {
 #### Part A
 
 * a(i) 2
-* a(ii) Argument mismatch. String cannot be converted into integer.
+* a(ii) incompatible types: String cannot be converted to Integer
+* a(iii):
 
 ```
-//a(iii)
 hello
 be
 a
+2
+1
+0
 ```
 
 #### Part B
@@ -137,13 +140,12 @@ public static void main(String[] args) {
             try  {
                 int x = Integer.parseInt(s);
                 System.out.println("The answer is "  + (x+1));
-                //first bit of missing code below
+                // first bit of missing code:
                 carryOn = false;
             }
             catch (Exception e) {
-            //second bit of missing code below
+                // second bit of missing code:
                 System.out.println("Error! Please enter an integer.");
-                carryOn = true;
             }
         }
 }
