@@ -182,7 +182,7 @@ public static void main(String[] args) {
 
 #### Part A
 
-* a(i) `Date date = new Date(4,6,2013);`
+* a(i) `Date date = new Date(2013, 6, 4);`
 
 ```java
 a(ii)
