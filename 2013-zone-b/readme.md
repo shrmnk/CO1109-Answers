@@ -84,24 +84,24 @@ class q2b {
 #### Part C
 
 ```java
-static int roll() {
-    java.util.Random r = new java.util.Random();
-    return r.nextInt(6) + 1;
-}
+class q2c {
+    static int roll() {
+        java.util.Random r = new java.util.Random();
+        return r.nextInt(6) + 1;
+    }
 
-public static void main(String[] args) {
-    int count  = 0;
-    boolean isComplete = false;
-    while (!isComplete) {
-    count++;
-    int firstRoll = roll();
-    int secondRoll = roll();
-    int thirdRoll = roll();
-    if (firstRoll == 1 && secondRoll == 1 && thirdRoll == 1) {
-        isComplete = true;
-    }        
-}
-    System.out.println(count);
+    public static void main(String[] args) {
+        int count = 0, consecutiveOnes = 0;
+        while (consecutiveOnes < 3) {
+            count++;
+            if (roll() == 1) {
+                consecutiveOnes++;
+            } else {
+                consecutiveOnes = 0;
+            }
+        }
+        System.out.println(count);
+    }
 }
 ```
 
