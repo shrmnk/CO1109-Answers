@@ -82,7 +82,7 @@ int minOf3(int a, int b, int c) {
 6
 ```
 
-* b(ii) StringIndexOutOfBoundsException
+* b(ii) `tac`
 
 ```java
 //c(i)
@@ -100,10 +100,13 @@ static int count(char a, String s) {
 ```java
 //c(ii)
 static boolean reverse(String s, String t) {
-    int count = 0;
-    for ( int i = s.length() - 1; i > 0; i--) {
-        if (s.charAt(i) != t.chatAt(count)) return false;
-        count++;
+    if(s.length() != t.length()) {
+        return false;
+    }
+    for (int i = 0; i < s.length(); i++) {
+        if (s.charAt(i) != t.charAt(t.length() - i - 1)) {
+            return false;
+        }
     }
     return true;
 }
