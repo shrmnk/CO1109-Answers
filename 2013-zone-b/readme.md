@@ -119,7 +119,7 @@ class q2c {
 
 #### Part B
 * (i) `cat`
-* (ii) `12`
+* (ii) Will not compile - non-static method `f(int)` cannot be referenced from a static context
 
 #### Part C
 
