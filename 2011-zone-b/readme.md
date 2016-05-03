@@ -9,14 +9,15 @@
 
 ## Question 1
 
-* a) i) 0
+* a) i) 6
 * a) ii) 5
 * a) iii) 6
 * a) iv) 2
 * a) v) 2500
 * a) vi) Infinite
 * a) vii) 0
-* a) ix) 0
+* a) viii) 0
+* a) ix) Infinite
 
 ---
 

@@ -3,7 +3,7 @@ public class q1a {
     String tmp = "";
     int i;
 
-    for(i = 7; i < 7; i=i+1) tmp += "8";
+    for(i = 1; i < 7; i=i+1) tmp += "8";
     System.out.println("i) " + tmp.length());
     tmp = "";
 
@@ -36,9 +36,11 @@ public class q1a {
     System.out.println("viii) " + tmp.length());
     tmp = "";
 
-    i = 5; while(i >= 5) { tmp += "*"; i = i+1; }
+    /*i = 5; while(i >= 5) { tmp += "*"; i = i+1; }
     System.out.println("ix) " + tmp.length());
-    tmp = "";
+    tmp = "";*/
+
+    System.out.println("ix) Infinite");
 
   }
 
