@@ -110,8 +110,8 @@ class q2c {
 #### Part A
 * (i)
   * `boolean`
-  * `int`
   * `double`
+  * `int`
 
 * (ii) Yes
 * (iii) Yes
