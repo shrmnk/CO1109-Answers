@@ -23,11 +23,14 @@
 #### Part B
 
 ```java
-int smallest = array[0];
-for (int i = 0; i < array.length; i++) {
-    if (smallest > array[i]) {
-        smallest = array[i];
+int smallestElement(int[] array) {
+    int smallest = array[0];
+    for (int i = 0; i < array.length; i++) {
+        if (smallest > array[i]) {
+            smallest = array[i];
+        }
     }
+    return smallest;
 }
 ```
 
