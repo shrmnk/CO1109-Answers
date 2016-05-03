@@ -10,10 +10,10 @@
 ## Question 01
 
 #### Part A
-* (i) 13
+* (i) 12
 * (ii) 6
 * (iii) 6
-* (iv) 38
+* (iv) 39
 * (v) 0
 * (vi) infinite
 * (vii) 40
