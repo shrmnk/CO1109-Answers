@@ -114,12 +114,14 @@ class q2c {
   * `int`
 
 * (ii) Yes
+
 * (iii) Yes
+
 * (iv) No
 
 #### Part B
 * (i) `cat`
-* (ii) Will not compile - non-static method `f(int)` cannot be referenced from a static context
+* (ii) Will not compile - non-static method `f(int)` cannot be referenced from a static context. However, assuming `f(int)` were to be declared as `static`, then the output would be `12`.
 
 #### Part C
 
