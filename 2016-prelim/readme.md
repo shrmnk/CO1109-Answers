@@ -59,7 +59,7 @@ public class q1d {
     static int product(Vector v) {
         int sum = 0;
         for(int i = 0; i < v.size(); i++)
-            sum += (int)v.elementAt(i);
+            sum *= (int)v.elementAt(i);
 
         return sum;
     }
