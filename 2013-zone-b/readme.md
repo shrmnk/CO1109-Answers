@@ -184,7 +184,7 @@ class D extends C {
 
 ```java
 class Arr {
-    Object[] array;
+    private Object[] array;
     public Arr(Object[] array) {
         this.array = array;
     }
@@ -202,4 +202,4 @@ class Arr {
 ---
 
 ###### Contributors
-> These people helped to make the above answers: @hong-yi
+> These people helped to make the above answers: @hong-yi @shrmnk
