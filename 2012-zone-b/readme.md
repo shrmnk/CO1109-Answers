@@ -11,10 +11,10 @@
 
 #### Part A
 
-* a(i) No error
-* a(ii) Missing semi colon after statement
+* a(i) No syntax error
+* a(ii) Missing semicolon after statement
 * a(iii) Non-static variable cannot be referenced from a static context
-* a(iv) Wrong method signature. Method accessor should be declared first.`e.g static char q(int x)`
+* a(iv) Wrong method signature. Method accessor should be declared first, e.g. `static char q(int x)`
 
 #### Part B
 ``` java
@@ -41,22 +41,23 @@ if (y == 4 || y != 4) {
 //b(iv)
 for (int i = n; i < 0; i++) {
     System.out.println("hello");
-    }
+}
 ```
 
 #### Part C
 
 ```java
 //c(i)
-static int smallerNum(int  a, int b) {
-    if (a > b) return a;
-    else return b;
+int min(int a, int b) {
+    if (a > b) return b;
+    else return a;
 }
 ```
+
 ```java
 //c(ii)
-static int minOf3(int a, int b, int c) {
-    smallerNum(smallerNum(a,b), c);
+int minOf3(int a, int b, int c) {
+    min(min(a, b), c);
 }
 ```
 
