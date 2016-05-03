@@ -76,8 +76,8 @@ class StudentWithGender extends Student {
 
 #### Part A
 * (i) `java.util.Scanner s = new java.util.Scanner(System.in);`
-* (ii) `ss`
-* (iii) `two`
+* (ii) `three`
+* (iii) `ArrayIndexOutOfBoundsException`
 
 #### Part B
 * (i) The method requires an argument but no argument was passed in.
