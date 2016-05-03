@@ -65,9 +65,9 @@ int minOf3(int a, int b, int c) {
 
 #### Part A
 
-* a(i) No error
-* a(ii) No error
-* a(iii) No error
+* a(i) Error - Array Index Out Of Bounds
+* a(ii) `5`
+* a(iii) `0123456789`
 
 #### Part B
 
