@@ -128,14 +128,14 @@ import java.util.Arrays;
 class q3c {
     public static void main(String[] args) {
         if(args.length >= 2) {
-            if(checkAnagram(args[0], args[1])) {
+            if(isPermutation(args[0], args[1])) {
                 System.out.println("Yes");
             } else {
                 System.out.println("No");
             }
         }
     }
-    static boolean checkAnagram(String str1, String str2) {
+    static boolean isPermutation(String str1, String str2) {
 
         if (str1.length() != str2.length())
           return false;
