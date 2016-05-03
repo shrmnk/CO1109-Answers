@@ -32,15 +32,15 @@ if (a && c) {
 
 ```java
 //b(iii)
-if (y == 4 || y != 4) {
-    y++;
-}
+y = y + 1;
 ```
 
 ```java
 //b(iv)
-for (int i = n; i < 0; i++) {
-    System.out.println("hello");
+static void f(int n) {
+    for (int i = n; i < 0; i++) {
+        System.out.println("hello");
+    }
 }
 ```
 
