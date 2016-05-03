@@ -66,8 +66,8 @@ Vector<String> getShortestStrings(Vector<String> v) {
 
 #### Part A
 * (i) `154`
-* (ii) the variable `s` was expecting an integer as value, but a `String` was assigned instead.
-* (iii) variable `t` is declared twice with different values.
+* (ii) The variable `s` is declared as an `int`, but a `String` value was assigned instead.
+* (iii) The variable `t` is declared twice.
 
 #### Part B
 
